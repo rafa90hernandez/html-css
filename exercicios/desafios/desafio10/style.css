@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0% 0%;
+    background-color:rgb(237, 219, 177);
+    width: 100%;
+    ;
+
+}
+
+main {
+
+    align-items: center;
+    background-color: white;
+    margin: 0% 10%;
+    padding: 1em;
+
+}
+
+header {
+    background-color: rgb(4, 69, 31);
+    background-image: linear-gradient(to bottom, rgb(33, 132, 75), rgb(4, 69, 31));
+    padding: 2%;
+    margin: auto;
+}
+
+header>h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header>p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+    font-family: fonte_nova;
+    color: rgb(4, 69, 31);
+    font-size: 1.5em;
+}
+
+h2 {
+    background-image: linear-gradient(to left, rgb(254, 254, 254), rgb(120, 226, 164));
+    font-family: fonte_nova;
+    color: rgb(4, 69, 31);
+    font-size: 1em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(4, 69, 31);
+    padding: 1%;
+    color: none ;
+    color: white;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+nav>a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    
+}
+
+nav>a:hover {
+    background-color: rgb(33, 132, 75);
+    padding: 10px;  
+    border-radius: 10px;
+}
+
+span {
+    display: flex;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: "fonte_nova";
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+.fotoi {
+    width: 100%;
+}
+
+.fotoandroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoi {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(4, 69, 31);
+}
+
+.caixa {
+    background-color: rgb(197, 235, 214);
+    border-radius: 5%;
+    padding: 0px 8px 2px 8px;
+}
+
+h2#secundaria {
+    background-image: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 131, 70) !important;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    margin: 8px -7px 0px -8px;
+}
