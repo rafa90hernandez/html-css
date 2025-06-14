@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+
+        tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 2px;
+            width: 100px;
+        }
+
+        .cnome, .cprof {
+            background-color: rgb(172, 210, 210);
+        }
+
+        .csexo {
+            background-color: rgb(202, 175, 142);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Isabela</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Psicóloga</td>
+        </tr>
+        <tr>
+            <td>Renan</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Marcia</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Marcelo</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+</body>
+</html>
